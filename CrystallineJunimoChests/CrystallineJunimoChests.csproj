@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\FauxCore\FauxCommon\Common.targets" />
+  <Import Project="..\FauxCore\FauxCommon\FauxCommon.projitems" Label="Shared" />
+
+  <PropertyGroup>
+    <Name>Crystalline Junimo Chests</Name>
+    <Description>Adds enhanced Junimo Chests which can access multiple inventories depending on their color.</Description>
+    <Version>1.2.0-beta.1</Version>
+    <EnableHarmony>true</EnableHarmony>
+    <RootNamespace>LeFauxMods.CrystallineJunimoChests</RootNamespace>
+    <UniqueId>furyx639.CrystallineJunimoChests</UniqueId>
+    <UpdateKeys>Nexus:20658, CurseForge:998266, ModDrop:1547134, GitHub:LeFauxMatt/CrystallineJunimoChests</UpdateKeys>
+    <RepositoryUrl>https://github.com/LeFauxMatt/CrystallineJunimoChests</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SMAPIDependency Include="furyx639.ExpandedStorage" Version="3.2.0-beta.2" required="true" />
+    <SMAPIDependency Include="spacechase0.GenericModConfigMenu" Version="1.14.1" required="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ContentPacks Include="[CP] Crystalline Junimo Chest" />
+  </ItemGroup>
+
+</Project>
