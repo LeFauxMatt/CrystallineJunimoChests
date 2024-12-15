@@ -1,11 +1,15 @@
 # Crystalline Junimo Chest Change Log
 
-## 1.2.0 (Unreleased)
+## TBA
+
+* Add better chests storage icons.
+
+## 1.2.0 (December 14, 2024)
 
 ### Changed
 
 * Drop FauxCore dependency.
-* Updated for Expanded Storage 3.2.0-beta.2.
+* Updated for Expanded Storage 3.2.0.
 
 ## 1.1.3 (December 3, 2024)
 
