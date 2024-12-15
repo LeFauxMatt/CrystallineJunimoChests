@@ -1,7 +1,6 @@
-﻿namespace LeFauxMods.CrystallineJunimoChests;
+namespace LeFauxMods.CrystallineJunimoChests;
 
 using Microsoft.Xna.Framework;
-using Models;
 using StardewModdingAPI.Events;
 using StardewValley.Menus;
 using StardewValley.Objects;

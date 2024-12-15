@@ -1,4 +1,4 @@
-﻿namespace LeFauxMods.CrystallineJunimoChests.Models;
+namespace LeFauxMods.CrystallineJunimoChests;
 
 internal sealed class ModConfig
 {

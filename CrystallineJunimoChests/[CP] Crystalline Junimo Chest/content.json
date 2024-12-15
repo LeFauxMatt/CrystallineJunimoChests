@@ -17,7 +17,7 @@
       "LogName": "Edit CustomFields",
       "Action": "EditData",
       "Target": "Data/BigCraftables",
-      "TargetField": ["256", "CustomFields"],
+      "TargetField": [ "256", "CustomFields" ],
       "Entries": {
         // Expanded Storage Data
         "furyx639.ExpandedStorage/Enabled": "true",
@@ -25,13 +25,18 @@
         "furyx639.ExpandedStorage/GlobalInventoryId": "JunimoChest",
         "furyx639.ExpandedStorage/PlayerColor": "true",
         "furyx639.ExpandedStorage/TintOverride": "#3271D3,#ADFFFF,#ADFFF5,#3EFFCD,#07D945,#B4C178,#FFE35C,#EFB062,#FFAC4F,#FF6F4A,#E54E55,#FF6B9A,#FF7861,#BE6FE2,#8438FF,#5B2FA8,#524B47,#717062,#BCB49A,#E6DDEA",
+        "furyx639.ExpandedStorage/ModData": "furyx639.BetterChests/HslColorPicker=Disabled,furyx639.BetterChests/SearchItems=Disabled",
         // Better Chests Data
+        "furyx639.BetterChests/AutoOrganize": "Disabled",
         "furyx639.BetterChests/HslColorPicker": "Disabled",
         "furyx639.BetterChests/InventoryTabs": "Disabled",
         "furyx639.BetterChests/ResizeChest": "Disabled",
-        "furyx639.BetterChests/ResizeChestCapacity": "9"
-      }
-    },
+        "furyx639.BetterChests/ResizeChestCapacity": "9",
+        "furyx639.BetterChests/SearchItems": "Disabled"
+
+      },
+      "Priority": "Late"
+    }
   ],
   "$schema": "https://smapi.io/schemas/content-patcher.json"
 }
