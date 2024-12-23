@@ -1,6 +1,12 @@
 # Crystalline Junimo Chest Change Log
 
-## TBA
+## 1.2.1 (Unreleased)
+
+### Changed
+
+* Config options can be loaded from backup.
+
+### TBA
 
 * Add better chests storage icons.
 

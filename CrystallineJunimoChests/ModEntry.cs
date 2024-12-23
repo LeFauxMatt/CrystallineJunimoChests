@@ -1,9 +1,10 @@
-namespace LeFauxMods.CrystallineJunimoChests;
-
+using LeFauxMods.Common.Services;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI.Events;
 using StardewValley.Menus;
 using StardewValley.Objects;
+
+namespace LeFauxMods.CrystallineJunimoChests;
 
 /// <inheritdoc />
 internal sealed class ModEntry : Mod
@@ -15,13 +16,15 @@ internal sealed class ModEntry : Mod
     ];
 
     private ModConfig config = null!;
+    private ConfigHelper<ModConfig> configHelper = null!;
 
     /// <inheritdoc />
     public override void Entry(IModHelper helper)
     {
         // Init
         I18n.Init(this.Helper.Translation);
-        this.config = this.Helper.ReadConfig<ModConfig>();
+        this.configHelper = new ConfigHelper<ModConfig>(helper);
+        this.config = this.configHelper.Load();
 
         // Events
         this.Helper.Events.Input.ButtonPressed += this.OnButtonPressed;
